@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.title-and-menu-bar { /* changed header to title-and-menu-bar here and in rest of this stylesheet */
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+}
+
+.title-and-menu-bar h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.title-and-menu-bar h1 .seo {
+    color: #d9dcd6;
+}
+
+.title-and-menu-bar nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.title-and-menu-bar nav ul {
+    list-style-type: none;
+}
+
+.title-and-menu-bar nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.front-page-main-image-div {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.home-page-content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.home-page-section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.home-page-section img {
+    max-height: 200px;
+}
+
+
+.home-page-section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+.aside-benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.aside-benefits-subtype {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.aside-benefits-subtype h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.aside-benefits-subtype img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+.footer-body, .footer-heading {
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer-heading {
+    font-size: 14px;
+}
+.footer-body{
+    font-size: 10px;
+}
+
+
